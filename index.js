@@ -1,9 +1,10 @@
 // Constants for File System (FS), svg2img and Circle, Square, Triangle from Shapes in Lib
 const fs = require('fs');
+const svg2img = require('svg2img');
 const { Circle, Square, Triangle } = require('./lib/shapes');
 const { join } = require('path');
 
-// Dynamic import of inquirer
+// import of inquirer
 Promise.resolve()
   .then(() => import('inquirer'))
   .then((module) => {
@@ -19,7 +20,7 @@ Promise.resolve()
         },
         {
           name: 'textColor',
-          message: 'Enter the text color (keyword or hexadecimal number):',
+          message: 'Enter the text color:',
         },
         {
           name: 'shape',
@@ -29,7 +30,7 @@ Promise.resolve()
         },
         {
           name: 'shapeColor',
-          message: 'Enter the shape color',
+          message: 'Enter the shape color:',
         },
       ])
       .then(({ text, textColor, shape, shapeColor }) => {
