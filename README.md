@@ -13,6 +13,7 @@ The Following repo is an SVG logo maker. When you run the script node index.js y
   * [Acceptance Criteria](#acceptance-criteria)
   * [Installation](#installation)
   * [Screenshots](#screenshots)
+  * [Walkthrough](#walkthrough)
   * [Tests](#tests)
   * [Contribute](#contribute)
   * [GitHub](#github)
@@ -53,7 +54,9 @@ To install clone the repo at https://github.com/Neta2393/Shapes-Letters-NPM-oh-m
 ![Alt text](examples/circlelogo.png)
 ![Alt text](examples/logo.png)
 
+![Alt text](examples/squarelogo.png)
 
+## Walkthrough
 
 
 
