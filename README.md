@@ -51,10 +51,10 @@ To install clone the repo at https://github.com/Neta2393/Shapes-Letters-NPM-oh-m
 
 ## Screenshots
 
-![Alt text](examples/circlelogo.png)
-![Alt text](examples/logo.png)
+![Alt text](logos/circlelogo.png)
+![Alt text](logos/logo.png)
 
-![Alt text](examples/squarelogo.png)
+![Alt text](logos/squarelogo.png)
 
 ## Walkthrough
 
