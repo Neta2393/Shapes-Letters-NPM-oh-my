@@ -58,7 +58,8 @@ To install clone the repo at https://github.com/Neta2393/Shapes-Letters-NPM-oh-m
 
 ## Walkthrough
 
-[SVG LogoMaker.webm](https://github.com/Neta2393/Shapes-Letters-NPM-oh-my/assets/128006949/67e86755-a068-4fe2-be1d-fb9ed407ca6d)
+[Shapes Letters NPM Oh My.webm](https://github.com/Neta2393/Shapes-Letters-NPM-oh-my/assets/128006949/c85302b1-f68b-43bc-9179-ff77ff5da7b1)
+
 
 
 
