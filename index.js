@@ -30,13 +30,13 @@ Promise.resolve()
         },
         {
           name: 'shapeColor',
-          message: 'Enter the shape color:',
+          message: 'Enter the color of the shape:',
         },
       ])
       .then(({ text, textColor, shape, shapeColor }) => {
         let shapeInstance;
 
-        // Selected shape class based on user input
+        // Set shape size
         if (shape.toLowerCase() === 'circle') {
           shapeInstance = new Circle();
         } else if (shape.toLowerCase() === 'square') {
@@ -57,7 +57,7 @@ Promise.resolve()
         `;
 
         // Save the SVG markup to a file in the "examples" folder
-        const svgPath = join(__dirname, 'examples', 'logo.svg');
+        const svgPath = join(__dirname, 'logos', 'logo.svg');
         fs.writeFileSync(svgPath, svg, 'utf-8');
 
         // Convert the SVG file to an image
@@ -68,10 +68,10 @@ Promise.resolve()
           }
 
           // Save the image to a file in the "examples" folder
-          const imagePath = join(__dirname, 'examples', 'logo.png');
+          const imagePath = join(__dirname, 'logos', 'logo.png');
           fs.writeFileSync(imagePath, buffer);
           // Console log when the logo is generated
-          console.log('Generated logo.svg and logo.png in the "examples" folder');
+          console.log('Generated logo.svg and logo.png in the "logos" folder');
         });
       })
       // Catch error and log to console if application fails to run
@@ -81,5 +81,5 @@ Promise.resolve()
   })
   // Catch error and log to console if dynamic import of inquirer fails
   .catch((error) => {
-    console.error('Failed to dynamically import inquirer:', error);
+    console.error('Failed to import inquirer:', error);
   });
