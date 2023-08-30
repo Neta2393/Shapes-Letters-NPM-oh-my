@@ -4,8 +4,7 @@
 
 ## Description
 
-Text Editor that can be used on and offline and console logs information that is input. It utilizes db, Webpack, PWA and is locally cached. The app is deployed on Heroku at: https://benetheapwatexteditor-ceb32b8b6a4e.herokuapp.com/
-Github Repo: https://github.com/Neta2393/PWA-TextEditor
+The Following repo is an SVG logo maker. When you run the script node index.js you will be asked questions that will then generate an svg logo maker. The repo uses Jest and Inquirer to communicate. This repo can be found at https://github.com/Neta2393/Shapes-Letters-NPM-oh-my.
 
 
 
@@ -60,6 +59,7 @@ To install clone the repo at https://github.com/Neta2393/Shapes-Letters-NPM-oh-m
 
 
 ## Tests
+npm run test
 node index.js
 
 
